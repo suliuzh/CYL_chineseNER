@@ -1,0 +1,91 @@
+load dev data-----------------------
+********************
+train len: 37164
+word2id len 83536
+Creating the data generator ...
+use pretrained embedding
+(83537, 100)
+begin to train...
+/home/cyl/.local/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-12-03 17:22:09.106708: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+1162it [04:56,  3.92it/s]
+第 0 次 ******************** 3.3400414
+./model/model0.ckpt
+model has been saved 0
+388it [00:31, 13.82it/s]
+12388
+12388
+f1-measure-overall: 0.7951599528651357
+1162it [04:53,  4.67it/s]
+第 1 次 ******************** 2.8022978
+./model/model1.ckpt
+model has been saved 1
+388it [00:29, 13.90it/s]
+12388
+12388
+f1-measure-overall: 0.8947832812278235
+1162it [04:52,  4.44it/s]
+第 2 次 ******************** 0.50547165
+./model/model2.ckpt
+model has been saved 2
+388it [00:29, 13.86it/s]
+12388
+12388
+f1-measure-overall: 0.9102726557720378
+1162it [04:51,  3.99it/s]
+第 3 次 ******************** 0.667918
+./model/model3.ckpt
+model has been saved 3
+388it [00:29, 13.89it/s]
+12388
+12388
+f1-measure-overall: 0.9137740389826702
+1162it [04:53,  4.58it/s]
+第 4 次 ******************** 0.19731553
+./model/model4.ckpt
+model has been saved 4
+388it [00:29, 13.85it/s]
+12388
+12388
+f1-measure-overall: 0.9162731068035135
+1162it [04:51,  3.98it/s]
+第 5 次 ******************** 0.2749621
+./model/model5.ckpt
+model has been saved 5
+388it [00:29, 13.89it/s]
+12388
+12388
+f1-measure-overall: 0.9157839215858143
+1162it [04:51,  4.66it/s]
+第 6 次 ******************** 0.5023448
+./model/model6.ckpt
+model has been saved 6
+388it [00:29, 13.89it/s]
+12388
+12388
+f1-measure-overall: 0.9097964208767034
+1162it [04:57,  3.91it/s]
+第 7 次 ******************** 0.022186598
+./model/model7.ckpt
+model has been saved 7
+388it [00:30, 12.71it/s]
+12388
+12388
+f1-measure-overall: 0.9138213144064083
+1162it [04:57,  4.48it/s]
+第 8 次 ******************** 0.19741337
+./model/model8.ckpt
+model has been saved 8
+388it [00:30, 13.78it/s]
+12388
+12388
+f1-measure-overall: 0.9085514133368531
+1162it [04:52,  3.98it/s]
+第 9 次 ******************** 0.13969326
+./model/model9.ckpt
+model has been saved 9
+388it [00:30, 13.85it/s]
+12388
+12388
+f1-measure-overall: 0.9151720689579709
